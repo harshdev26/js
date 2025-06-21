@@ -13,7 +13,7 @@ let userEmail;
 
 
 const id = Symbol('123')
-const anotherId = symbol('123')
+const anotherId = Symbol('123')
 
 console.log(id === anotherId);
 
@@ -32,3 +32,28 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello world");
 }
+
+
+
+// ******************************************************
+
+
+// Stack (Primitive) , Heap (Non-primitive)
+
+
+let myYoutubename = "harshtiwaridotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode" 
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+console.log(userOne.email);
+console.log(userTwo.email);

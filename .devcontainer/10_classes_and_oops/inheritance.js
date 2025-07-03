@@ -27,3 +27,4 @@ const masalaChai = new User("masalaChai")
 masalaChai.logMe()
 
 console.log(masalaChai instanceof Teacher);
+///

@@ -3,7 +3,7 @@ let score = true;
 console.log(typeof score);
 console.log(typeof (score)); 
 
-let valueInNumber = Number(score)
+let valueInNumber = Number(score) //this will convert it to the number.
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
 
@@ -24,6 +24,6 @@ console.log(booleanisLoggedIn);
 
 let someNumber = 33
 
-let stringNumber  = String(someNumber)
+let stringNumber  = String(someNumber) //this will convert it to the String....
 console.log(stringNumber);
 console.log(typeof stringNumber);
